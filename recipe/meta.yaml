@@ -11,7 +11,7 @@ source:
   sha256: aa81715c0f4f2a0cea84b802f3b3ea8154f153d547ce24b8c030d8442934cd82
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: "{{ PYTHON }} -m pip install . -vv"
 
@@ -23,7 +23,7 @@ requirements:
   run:
     - python
     - numpy
-    - matplotlib
+    - matplotlib-base
     - ultranest
     - pymultinest
     - multinest
