@@ -1,5 +1,5 @@
 {% set name = "bxa" %}
-{% set version = "4.0.0" %}
+{% set version = "4.0.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 0655641e8eb78cd774078ad84935d31b554d3e5c4ac037bebc41dec8690302f3
+  sha256: 8b99bed2a751cf1cf4e422a8c227ca1908560c42338aa10a42521b42815c8575
 
 build:
   number: 0
@@ -24,8 +24,11 @@ requirements:
     - numpy
     - matplotlib-base
     - ultranest
-    - pymultinest
-    - multinest
+    - h5py
+    - tqdm
+    - joblib
+    - astropy
+    - scipy
 
 test:
   imports:
