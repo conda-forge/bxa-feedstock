@@ -5,9 +5,13 @@ Home: https://johannesbuchner.github.io/BXA/
 
 Package license: GPL3
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/bxa-feedstock/blob/master/LICENSE.txt)
 
 Summary: BXA enables nested sampling in the X-ray spectral analysis environments Xspec/Sherpa for Bayesian Parameter Estimation and Model comparison.
+
+Development: https://github.com/JohannesBuchner/BXA/
+
+Documentation: https://johannesbuchner.github.io/BXA/
 
 Bayesian X-ray Analysis (BXA) allows reliable parameter inference and model comparison in X-ray astronomy.
 
