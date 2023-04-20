@@ -10,17 +10,17 @@ source:
   sha256: 670a49be00261b0bc855259f319250a8d20cb889db90b4935bc37f09e9f21a93
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   build:
   host:
-    - python
+    - python >=3.6
     - pip
   run:
-    - python
+    - python >=3.6
     - numpy
     - matplotlib-base
     - ultranest
@@ -29,6 +29,7 @@ requirements:
     - joblib
     - astropy
     - scipy
+    - requests
 
 test:
   imports:
@@ -36,7 +37,7 @@ test:
 
 about:
   home: https://johannesbuchner.github.io/BXA/
-  license: GPL3
+  license: GPL-3.0-or-later
   license_family: GPL
   license_file: LICENSE
   summary: BXA enables nested sampling in the X-ray spectral analysis environments Xspec/Sherpa for Bayesian Parameter Estimation and Model comparison.
