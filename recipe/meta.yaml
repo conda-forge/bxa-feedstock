@@ -1,5 +1,5 @@
 {% set name = "bxa" %}
-{% set version = "4.0.5" %}
+{% set version = "4.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: b09456237b06e34efe5ed5450f1c9d4eb068b11161c23f0f54461de14229953b
+  sha256: 670a49be00261b0bc855259f319250a8d20cb889db90b4935bc37f09e9f21a93
 
 build:
   number: 0
