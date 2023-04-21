@@ -5,7 +5,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/bxa-feedstock/b
 
 Home: https://johannesbuchner.github.io/BXA/
 
-Package license: GPL3
+Package license: GPL-3.0-or-later
 
 Summary: BXA enables nested sampling in the X-ray spectral analysis environments Xspec/Sherpa for Bayesian Parameter Estimation and Model comparison.
 
