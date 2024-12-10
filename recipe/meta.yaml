@@ -10,13 +10,14 @@ source:
   sha256: ca6f5cfeba2588dd89e3433db13b0c7e23f679d3de1c85aa0f5490be368e4106
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   build:
   host:
+    - setuptools
     - python >=3.6
     - pip
   run:
@@ -27,7 +28,7 @@ requirements:
     - h5py
     - tqdm
     - joblib
-    - astropy
+    - astropy-base
     - scipy
     - requests
 
