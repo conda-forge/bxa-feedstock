@@ -16,6 +16,7 @@ build:
 
 requirements:
   build:
+    - setuptools
   host:
     - python >=3.6
     - pip
@@ -27,7 +28,7 @@ requirements:
     - h5py
     - tqdm
     - joblib
-    - astropy
+    - astropy-base
     - scipy
     - requests
 
